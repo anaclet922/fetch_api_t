@@ -1,1 +1,1 @@
-### Same project like one [a found here](https://github.com/anaclet922/suguchallenge) but using fetch API (js)
+### Same project like one [found here](https://github.com/anaclet922/suguchallenge) but using fetch API (js)
