@@ -1,1 +1,1 @@
-# fetch_api_t
+## Same project like one [a link](https://github.com/user/repo/blob/branch/other_file.md) but getting data from API using fetch API (js)
