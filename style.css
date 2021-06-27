@@ -1,0 +1,103 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#loader{
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('loader1.gif') 
+              50% 50% no-repeat rgba(249,249,249, .8);
+}
+.container{
+	padding-top: 20px; 
+	padding-right: 200px;
+	padding-left: 200px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+}
+.table{
+	width: 100%;
+	border-spacing: 0;
+}
+.table tr{
+	margin-top: 5px;
+}
+.table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.table tr th, .table tr td{
+	text-align: left;
+	padding-left: 10px;
+}
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table thead tr th{
+	border-bottom: 3px solid #333333;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}
+#table-title{
+	text-transform: uppercase;
+}
+#posts-table tr td{
+	vertical-align: top;
+}
+button{
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-weight: 600;
+	background-color: #E15B64;
+	border: 1px solid #E15B64;
+	color: white;
+	font-size: 17px;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #F8B26A;
+	border: 1px solid #F8B26A;
+}
+.number-on-post{
+	font-size: 60px;
+}
+.titles{
+	font-size: 20px;
+	font-weight: 600;
+}
+.no{
+	font-weight: 600;
+	/*vertical-align: top;*/
+}
+
+
+@media screen and (max-width: 800px) {
+
+  button {
+    font-size: 12px;
+  }
+  .container{
+		padding-top: 20px;
+		padding-right: 2vw !important;
+		padding-left: 2vw !important;
+	}
+	.table tr th, .table tr td {
+	    text-align: left;
+	    padding-left: 10px;
+	    font-size: 12px;
+	}
+	.number-on-post {
+	    font-size: 36px !important;
+	    /*vertical-align: top;*/
+	}
+
+}
+
